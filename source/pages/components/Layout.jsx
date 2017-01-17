@@ -1,4 +1,5 @@
 import React from 'react';
+import MenuBurger from '../../shared/component/MenuBurger.jsx'
 
 function Layout(props) {
   return(
@@ -14,15 +15,16 @@ function Layout(props) {
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
         />
-        {/* <link
+
+        <link
           rel="stylesheet"
-          href="http://localhost:3001/styles.css"
-        /> */}
+          href="http://localhost:3001/style.css"
+        />
 
       </head>
       <body>
         <div
-          id="render-target"
+          id="app"
           dangerouslySetInnetHTML={{
             __html: props.content,
           }}

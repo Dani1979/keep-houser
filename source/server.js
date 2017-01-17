@@ -10,7 +10,7 @@ function requestHandler(request, response){
   const context = createServerRenderContext()
   let html = renderToString(
     <ServerRouter location={request.url} context={context}>
-      <Pages />
+      <Pages/>
     </ServerRouter>
   )
 
