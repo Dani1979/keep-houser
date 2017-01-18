@@ -8,10 +8,10 @@ let RadiumLink = Radium(Link);
 function MenuBurger(){
     return (
       <Menu right width={ 280 } radiumConfig={{ userAgent: 'all' }}  >
-        <RadiumLink className="menu-item" to="/">Home</RadiumLink>
-        <RadiumLink className="menu-item" to="/about">Quienes Somos</RadiumLink>
-        <RadiumLink className="menu-item" to="/services">Servicios</RadiumLink>
-        <RadiumLink className="menu-item" to="/contact">Contactos</RadiumLink>
+        <RadiumLink className="fa fa-fw fa-database" aria-hidden="true" to="/">Home</RadiumLink>
+        <RadiumLink className="fa fa-fw fa-database" aria-hidden="true" to="/about">Quienes Somos</RadiumLink>
+        <RadiumLink className="fa fa-fw fa-database" aria-hidden="true" to="/services">Servicios</RadiumLink>
+        <RadiumLink className="fa fa-fw fa-database" aria-hidden="true" to="/contact">Contactos</RadiumLink>
       </Menu>
     )
 }

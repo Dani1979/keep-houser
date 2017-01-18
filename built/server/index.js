@@ -24412,22 +24412,22 @@
 	    { right: true, width: 280, radiumConfig: { userAgent: 'all' } },
 	    _react2.default.createElement(
 	      RadiumLink,
-	      { className: 'menu-item', to: '/' },
+	      { className: 'fa fa-fw fa-database', 'aria-hidden': 'true', to: '/' },
 	      'Home'
 	    ),
 	    _react2.default.createElement(
 	      RadiumLink,
-	      { className: 'menu-item', to: '/about' },
+	      { className: 'fa fa-fw fa-database', 'aria-hidden': 'true', to: '/about' },
 	      'Quienes Somos'
 	    ),
 	    _react2.default.createElement(
 	      RadiumLink,
-	      { className: 'menu-item', to: '/services' },
+	      { className: 'fa fa-fw fa-database', 'aria-hidden': 'true', to: '/services' },
 	      'Servicios'
 	    ),
 	    _react2.default.createElement(
 	      RadiumLink,
-	      { className: 'menu-item', to: '/contact' },
+	      { className: 'fa fa-fw fa-database', 'aria-hidden': 'true', to: '/contact' },
 	      'Contactos'
 	    )
 	  );
@@ -24640,6 +24640,10 @@
 	      _react2.default.createElement('meta', {
 	        name: 'viewport',
 	        content: 'width=device-width, initial-scale=1.0, minimum-scale=1.0'
+	      }),
+	      _react2.default.createElement('link', {
+	        rel: 'stylesheet',
+	        href: 'http://localhost:3001/fonts/font-awesome-4.2.0/css/font-awesome.min.css'
 	      }),
 	      _react2.default.createElement('link', {
 	        rel: 'stylesheet',

@@ -25552,22 +25552,22 @@
 	    { right: true, width: 280, radiumConfig: { userAgent: 'all' } },
 	    _react2.default.createElement(
 	      RadiumLink,
-	      { className: 'menu-item', to: '/' },
+	      { className: 'fa fa-fw fa-database', 'aria-hidden': 'true', to: '/' },
 	      'Home'
 	    ),
 	    _react2.default.createElement(
 	      RadiumLink,
-	      { className: 'menu-item', to: '/about' },
+	      { className: 'fa fa-fw fa-database', 'aria-hidden': 'true', to: '/about' },
 	      'Quienes Somos'
 	    ),
 	    _react2.default.createElement(
 	      RadiumLink,
-	      { className: 'menu-item', to: '/services' },
+	      { className: 'fa fa-fw fa-database', 'aria-hidden': 'true', to: '/services' },
 	      'Servicios'
 	    ),
 	    _react2.default.createElement(
 	      RadiumLink,
-	      { className: 'menu-item', to: '/contact' },
+	      { className: 'fa fa-fw fa-database', 'aria-hidden': 'true', to: '/contact' },
 	      'Contactos'
 	    )
 	  );
