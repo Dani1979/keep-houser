@@ -5,14 +5,13 @@ import MenuBurger from '../../shared/component/MenuBurger.jsx'
 
 
 class Contact extends Component {
-  render(){
+    render(){
       return(
-        <div id = "outer-container">
-          <MenuBurger pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" }/>
-          <div id = "page-wrap">
-            <h1>Contactos</h1>
-          </div>
-
+        <div id="outer-container">
+          <MenuBurger id={"fallDown"} pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" } />
+          <main id="page-wrap">
+            <h1 id="title">Contacto</h1>
+          </main>
         </div>
       );
     }

@@ -5,17 +5,17 @@ import MenuBurger from '../../shared/component/MenuBurger.jsx'
 
 
 class Services extends Component {
-    render(){
-      return(
-        <div id = "outer-container">
-          <MenuBurger pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" }/>
-          <div id = "page-wrap">
-            <h1>Servicios</h1>
-          </div>
-
-        </div>
-      );
-    }
+  render(){
+    return(
+      <div id="outer-container">
+        <MenuBurger id={"fallDown"} pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" } />
+        <main id="page-wrap">
+          <h1 id="title">Servicios</h1>
+        </main>
+      </div>
+    );
+  }
 }
+
 
 export default Services;
